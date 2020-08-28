@@ -1,0 +1,43 @@
+:root{
+  --theme-color: linear-gradient(to right, #43cea2, #185A9D);
+}
+
+html{
+  height: 100%;
+  width: 100%;
+  overflow-y: hidden;
+}
+
+body{
+  margin:0;
+  font: normal 16px Arial, Helvetica, sand-serif;
+  color:#333;
+  height: 100%;
+  width: 100%;
+}
+
+#particles-js{
+  /* background:firebrick; */
+  background-image: linear-gradient(240deg,#43cea2,#185A9D);
+  height:100%;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}
+
+.heading{
+  color: white;
+position: absolute;
+font-size: 50px;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+}
+
+@media only screen and (max-width: 425px){
+  .heading{
+    font-size: 25px;
+  }
+}
+
